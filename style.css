@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.firstmain.part {
+position: relative;
+}
+
+.one-part {
+    background-color: azure;
+    height: 200px;
+    width: 100%;
+}
+
+.two-part {
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+}
+
+.middle-one {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+
+}
