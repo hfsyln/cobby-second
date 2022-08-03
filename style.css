@@ -3,6 +3,28 @@
     padding: 0;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+h2 {
+    width: 50%; 
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+
+}
 
 .firstmain-part {
 position: relative;
@@ -17,11 +39,19 @@ position: relative;
 }
 
 .two-part {
-    background-color:lightblue;
+    background-color: lightgrey;
     height: 300px;
     width: 100%;
-}
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
+}
+.thirt {
+    width: 33%;
+    text-align: center;
+    
+}
 .middle-one {
     background-color: white;
     height: 60px;
@@ -42,9 +72,27 @@ position: relative;
     background-color:white;
     height: 500px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.one {
+    width: 50%;
+    padding: 70px;
+    align-items: center;
+    
+}
+.two {
+    width: 20%;
+    padding-top: 75px;
+    
 
 }
-
+.three {
+    width: 30%;
+    padding-top: 100px;
+    
+}
 .four-part {
     background-color:black;
     height: 80px;
@@ -85,3 +133,19 @@ position: relative;
     border: solid;
     width: 33%;
  }
+.imgone {
+    width: 70%;
+    height: 60%;
+}
+.imgtwo{
+    width: 60%;
+    height: 50%;
+}
+.oreng {
+    background-color: darkorange;
+}
+input {
+    width: 100px;
+    height: 30px;
+    border: none;
+}
