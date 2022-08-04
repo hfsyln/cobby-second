@@ -9,12 +9,15 @@
     list-style: none;
     justify-content: space-between;
     padding: 20px;
-    align-items: center;
 
 }
-h2 {
-    width: 50%; 
-    text-align: center;
+
+.ikili {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -116,24 +119,26 @@ position: relative;
 .partone {
     width: 33%;
     background-color: aliceblue;
-    text-align: center;
+    padding: 40px;
 }
  .parttwo {
     width: 34%;
     background-color: lightsteelblue;
+    padding: 40px;
  }
  
  .partthree {
     width: 33%;
     background-color: cornsilk;
+    padding: 40px;
  }
 
  .phone , .mail, .adress {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: solid;
     width: 33%;
+    padding: 5px;
  }
 .imgone {
     width: 80%;
